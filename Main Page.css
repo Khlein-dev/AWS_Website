@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Brasika';
+    src: url('assets/brasika.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* HERO SECTION */
+
+.banner {
+    background-image: url(assets/banner.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 98%;
+    margin-top: 12px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner-text {
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    padding: 60px;
+    border-radius: 19px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 23px;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Brasika', sans-serif;
+    color: #7583F1;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.letsGetStarted button {
+    width: 300px;
+    height: 50px;
+    background-color: #B1C764;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.letsGetStarted button:hover {
+    background-color: #7583F1;
+    scale: 1.05;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #7583F1;
+    max-height: none;
+    margin-top: 20px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Brasika', sans-serif;
+    color: #333333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
